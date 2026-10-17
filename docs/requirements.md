@@ -116,3 +116,55 @@ Non-functional requirements describe how well the system should work.
   API key.
 - NFR8 (Testability): Important Python functions, such as the warning rules,
   shall be tested using pytest.
+
+
+## 7. Prioritized Feature List (Product Backlog)
+
+| ID | Feature | Priority | Planned Version |
+|----|---------|----------|-----------------|
+| F1 | Requirements document and repository setup | High | v0.1.0 |
+| F2 | Flask project setup and district list | High | v0.2.0 |
+| F3 | Live weather forecast (current + 7 days) | High | v0.2.0 |
+| F4 | Interactive map with district markers | High | v0.3.0 |
+| F5 | Automatic warning rules with severity levels | High | v0.3.0 |
+| F6 | Recent earthquakes from USGS | High | v0.4.0 |
+| F7 | Past disaster history notes | Medium | v0.4.0 |
+| F8 | Precautions and emergency numbers | Medium | v0.4.0 |
+| F9 | User registration, login and home district | Medium | v0.5.0 |
+| F10 | Admin panel (incidents and official alerts) | Medium | v0.5.0 |
+| F11 | Air quality and smog warnings | Low | v0.6.0 |
+| F12 | Automated tests with pytest | Medium | v0.6.0 |
+| F13 | Dark theme and final design improvements | Low | v1.0.0 |
+
+This backlog will be updated during the project. New features may be added
+and priorities may change based on progress and feedback.
+
+## 8. Assumptions
+
+- The free Open-Meteo and USGS APIs will remain available and free during
+  the project.
+- Users will have an internet connection to see live data.
+- Weather forecasts from the APIs are accurate enough for basic warnings.
+- Users can use a basic web browser.
+
+## 9. Constraints
+
+- The project must be written mainly in Python, using Flask and SQLite.
+- Only free tools and free APIs can be used.
+- JavaScript must be kept to the minimum needed for the map.
+- The project must be finished within the semester deadline.
+- Team members have limited programming experience, so features are kept
+  simple and built step by step.
+
+## 10. Known Limitations
+
+- This is a student project, not an official government system. Warnings are
+  based on simple rules and may not be as accurate as official NDMA or PMD
+  warnings.
+- Flood warnings are estimated from rainfall only, not from real river levels.
+- The system does not send SMS or mobile notifications.
+- Only selected major districts will be included, not every district in
+  Pakistan.
+- Disaster history data is entered manually and covers only major past events.
+- The system will run on a local computer and will not be hosted online
+  during development.
