@@ -36,6 +36,15 @@ disaster.
 -Sarah Arif 
 -Hudaibia Rehman
 
+## Current Status
+**Milestone 1 – Requirements (completed)**
+- [x] GitHub repository created
+- [x] README added
+- [x] Requirements document (docs/requirements.md and PDF)
+- [x] Product backlog (docs/backlog.md)
+
+**Next:** Milestone 2 – Flask setup and weather data (v0.2.0)
+
 ## Folder Structure
 pakistan-disaster-management-system/
 ├── README.md
