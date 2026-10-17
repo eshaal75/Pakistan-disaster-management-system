@@ -19,9 +19,9 @@ This file tracks our tasks. It is updated as the project moves forward.
 | Write README.md | Done |
 | Write requirements document (docs/requirements.md) | Done |
 | Create backlog / task list (docs/backlog.md) | Done |
-| Create src folder | To Do |
-| Convert requirements to PDF and upload | In Progress |
-| Create Git tag v0.1.0 | To Do |
+| Create src folder | Done |
+| Convert requirements to PDF and upload | Done |
+| Create Git tag v0.1.0 | Done |
 
 ## Milestone 2 – Flask Setup and Weather (v0.2.0)
 
