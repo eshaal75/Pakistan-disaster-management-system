@@ -96,6 +96,21 @@ Functional requirements describe what the system must do.
 - FR18: The system shall allow admins to post official alerts.
 - FR19: The system shall prevent normal users from opening admin pages.
 
+**Hazard Map Layers**
+
+- FR20: The system shall show map layers for each hazard: rainfall (mm),
+  snowfall (cm), temperature (heat), wind speed, air quality (smog) and
+  earthquakes.
+- FR21: The system shall let the user turn each map layer on or off.
+- FR22: The system shall show landslide risk for hilly and mountainous
+  districts when heavy rain or snowmelt is forecast.
+- FR23: The system shall colour each district marker by its highest warning
+  level (moderate, high, severe) and show the icon of the hazard.
+- FR24: The system shall show the 7-day forecast of rain, snow, temperature
+  and wind, plus any active warnings, when the user clicks a district.
+- FR25: The system shall show a colour legend explaining what each colour
+  and icon means.
+
 ## 6. Non-Functional Requirements
 
 Non-functional requirements describe how well the system should work.
@@ -127,6 +142,7 @@ Non-functional requirements describe how well the system should work.
 | F3 | Live weather forecast (current + 7 days) | High | v0.2.0 |
 | F4 | Interactive map with district markers | High | v0.3.0 |
 | F5 | Automatic warning rules with severity levels | High | v0.3.0 |
+| F14 | Hazard map layers (rain, snow, heat, wind, smog, landslide, earthquake) | High | v0.3.0 |
 | F6 | Recent earthquakes from USGS | High | v0.4.0 |
 | F7 | Past disaster history notes | Medium | v0.4.0 |
 | F8 | Precautions and emergency numbers | Medium | v0.4.0 |
