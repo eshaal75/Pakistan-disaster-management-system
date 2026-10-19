@@ -34,14 +34,14 @@ This file tracks our tasks. It is updated as the project moves forward.
 | Show weather on a simple HTML page | To Do |
 
 ## Milestone 3 – Map and Warnings (v0.3.0)
-
 | Task | Status |
 |------|--------|
 | Add interactive map with district markers | To Do |
 | Write warning rules in Python | To Do |
 | Add severity levels (moderate, high, severe) | To Do |
 | Show hazard icons on map | To Do |
-
+| Show hazard layers on map (rain, snow, heat, wind, smog, landslide) | To Do |
+| Estimate landslide risk for hilly districts | To Do |
 ## Milestone 4 – Earthquakes, History and Precautions (v0.4.0)
 
 | Task | Status |
