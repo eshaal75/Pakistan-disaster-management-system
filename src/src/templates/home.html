@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Districts</title></head>
+<body style="background:#111;color:#eee;font-family:Arial;">
+<h1>Pakistan Disaster Management System</h1>
+<h2>Choose a district</h2>
+<ul>
+{% for d in districts %}
+  <li><a href="/weather/{{ d['id'] }}" style="color:#7fd1ff">{{ d['name'] }}</a></li>
+{% endfor %}
+</ul>
+</body>
+</html>
