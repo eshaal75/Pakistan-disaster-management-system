@@ -27,11 +27,11 @@ This file tracks our tasks. It is updated as the project moves forward.
 
 | Task | Status |
 |------|--------|
-| Install Python and Flask | To Do |
-| Create basic Flask app (app.py) | To Do |
-| Create SQLite database with districts table | To Do |
-| Fetch weather from Open-Meteo API | To Do |
-| Show weather on a simple HTML page | To Do |
+| Install Python and Flask | done |
+| Create basic Flask app (app.py) | done |
+| Create SQLite database with districts table | done |
+| Fetch weather from Open-Meteo API | done |
+| Show weather on a simple HTML page | done |
 
 ## Milestone 3 – Map and Warnings (v0.3.0)
 | Task | Status |
