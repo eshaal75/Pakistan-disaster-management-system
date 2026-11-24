@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Weather - {{ district['name'] }}</title></head>
+<body style="background:#111;color:#eee;font-family:Arial;">
+<a href="/" style="color:#7fd1ff">Back to districts</a>
+<h1>{{ district['name'] }}, {{ district['province'] }}</h1>
+{% if data %}
+<h2>Right now</h2>
+<p>Temperature: {{ data['current']['temperature_2m'] }} {{ data['current_units']['temperature_2m'] }}</p>
+<p>Rain: {{ data['current']['precipitation'] }} {{ data['current_units']['precipitation'] }}</p>
+<p>Wind: {{ data['current']['wind_speed_10m'] }} {{ data['current_units']['wind_speed_10m'] }}</p>
+<h2>7-day forecast</h2>
+<table border="1" cellpadding="6">
+<tr><th>Date</th><th>Max temp</th><th>Min temp</th><th>Rain total</th></tr>
+{% for i in range(data['daily']['time']|length) %}
+<tr>
+<td>{{ data['daily']['time'][i] }}</td>
+<td>{{ data['daily']['temperature_2m_max'][i] }}</td>
+<td>{{ data['daily']['temperature_2m_min'][i] }}</td>
+<td>{{ data['daily']['precipitation_sum'][i] }} mm</td>
+</tr>
+{% endfor %}
+</table>
+{% else %}
+<p>Sorry, weather data is not available right now. Please try again later.</p>
+{% endif %}
+</body>
+</html>
