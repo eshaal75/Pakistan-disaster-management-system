@@ -43,17 +43,32 @@ disaster.
 - [x] Requirements document (docs/requirements.md and PDF)
 - [x] Product backlog (docs/backlog.md)
 
-**Next:** Milestone 2 – Flask setup and weather data (v0.2.0)
+**Milestone 2 – Flask setup and weather (completed)**
+- [x] Flask test app (src/app.py)
+- [x] SQLite districts database (src/database.py)
+- [x] Weather fetching from Open-Meteo (src/weather.py)
+- [x] Weather pages (src/templates/)
+
+**Next:** Milestone 3 – Map and warning rules (v0.3.0)
 
 ## Folder Structure
+```
 pakistan-disaster-management-system/
 ├── README.md
 ├── .gitignore
 ├── docs/
-│ ├── requirements.md
-│ ├── requirements.pdf
-│ └── backlog.md
-└── src/ (Python code will be added in later milestones)
+│   ├── requirements.md
+│   ├── requirements.pdf
+│   └── backlog.md
+└── src/
+    ├── README.md
+    ├── app.py
+    ├── database.py
+    ├── weather.py
+    └── templates/
+        ├── home.html
+        └── weather.html
+```
 
 
 ## Version Plan
